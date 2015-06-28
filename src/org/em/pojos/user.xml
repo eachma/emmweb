@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.3//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="/">
+    <insert id="newUser" parameterType="emUser" statementType="PREPARED">
+        <selectKey keyProperty="id" resultType="int" order="AFTER">
+
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+
+
+        INSERT INTO users(username, name, password,email)
+        values(#{username},#{name},#{password},#{email})
+    </insert>
+
+    <select id="selectEmail" resultType="emUser" parameterType="emUser" statementType="PREPARED">
+        SELECT id,username,name FROM users
+        WHERE email=#{email} AND password=#{password}
+    </select>
+</mapper>

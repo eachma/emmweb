@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/liyusen/myjg/dev/libnettymybatis/asm-4.2.jar"/>
+	<classpathentry kind="lib" path="/Users/liyusen/myjg/dev/libnettymybatis/cglib-3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/liyusen/myjg/dev/libnettymybatis/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/liyusen/myjg/dev/libnettymybatis/javax.mail.jar"/>
+	<classpathentry kind="lib" path="/Users/liyusen/myjg/dev/libnettymybatis/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="/Users/liyusen/myjg/dev/libnettymybatis/log4j-api-2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/liyusen/myjg/dev/libnettymybatis/log4j-core-2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/liyusen/myjg/dev/libnettymybatis/mybatis-3.3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/liyusen/myjg/dev/libnettymybatis/mysql-connector-java-5.1.35-bin.jar"/>
+	<classpathentry kind="lib" path="/Users/liyusen/myjg/dev/libnettymybatis/netty-all-4.0.29.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/liyusen/myjg/dev/libnettymybatis/slf4j-api-1.7.12.jar"/>
+	<classpathentry kind="lib" path="/Users/liyusen/myjg/dev/libnettymybatis/slf4j-log4j12-1.7.12.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
