@@ -23,6 +23,16 @@
                 <property name="password" value="l9yus5nn"/>
             </dataSource>
         </environment>
+        <environment id="production">
+            <transactionManager type="JDBC">
+            </transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://10.4.32.115:3306/em"/>
+                <property name="username" value="em"/>
+                <property name="password" value="l9yus5nn"/>
+            </dataSource>
+        </environment>
     </environments>
 
 
